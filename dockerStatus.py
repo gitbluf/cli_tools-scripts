@@ -17,10 +17,10 @@ def getAuthToken(hostName):
 
 environment_name = sys.argv[1]
 
-idev_host = 'https://sea-ucp.davita.corp'
-qa_host = 'https://qa-sea-ucp.davita.corp'
-stage_host = 'https://den-ucp.davita.corp'
-prod_host = 'https://prod-den-ucp.davita.corp'
+idev_host = 'url'
+qa_host = 'url'
+stage_host = 'url'
+prod_host = 'url'
 host = ''
 
 if(environment_name == 'idev' or environment_name == 'dev'):
