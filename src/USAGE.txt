@@ -1,0 +1,15 @@
+ziperaja v1.1
+Marko Petrovic
+About: custom zip cli program
+
+USAGE:
+    ziperaja [OPTIONS] --location <LOCATION> --zname <ZNAME>
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+OPTIONS:
+    -l, --location <LOCATION>    add path to folder you want to zip(default is .) with -; or --location [default: .]
+    -e, --email <MAILER>         add email to be sentto
+    -z, --zname <ZNAME>          add name of the zip file with flags -z or --zname[default: 2018-07-11 14:37:37.3 +02:00.zip]
