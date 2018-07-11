@@ -1,0 +1,18 @@
+[package]
+name = "ziperaja"
+version = "1.0.1"
+authors = ["parrot <mrpetrovic@outlook.com>"]
+
+[dependencies]
+zip = "0.4.2"
+walkdir = "2"
+clap = "2.32.0"
+flate2 = { version = "1.0", default-features = false, optional = true }
+time = "0.1"
+podio = "0.1"
+msdos_time = "0.1"
+bzip2 = "0.3.2"
+lettre = "0.8.2"
+lettre_email = "0.8"
+mime = "0.3.8"
+chrono = "0.4"
