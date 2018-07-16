@@ -1,0 +1,15 @@
+[package]
+name = "deploy-agent"
+version = "0.1.0"
+authors = ["parrot <mrpetrovic@outlook.com>"]
+
+[target.x86_64-apple-darwin.openssl-sys]
+rustc-link-search = [ "/usr/local/opt/openssl/lib" ]
+rustc-link-lib = [ "ssl", "crypto" ]
+include = [ "/usr/local/opt/openssl/include" ]
+
+
+[dependencies]
+ssh2 = "0.3.3"
+openssl = "0.10.10"
+clap = "2.32.0"
