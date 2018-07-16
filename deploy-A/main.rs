@@ -30,7 +30,7 @@ fn main() {
                 .short("u")
                 .required(true)
                 .takes_value(true)
-                .default_value("virtuser")
+                .default_value("user")
                 .help("add a username/ default is virtuser"),
         )
         .arg(
@@ -38,7 +38,7 @@ fn main() {
                 .long("password")
                 .short("p")
                 .takes_value(true)
-                .default_value("passw0rd")
+                .default_value("password")
                 .help("add password to your user AD, default pass is of virtuser"),
         )
         .arg(
