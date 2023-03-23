@@ -7,7 +7,7 @@ TODO:
 - recognize files that are under last terragrunt.hcl or .terraform.lock.hcl
 '''
 
-__author__ = "Pyunix"
+__author__ = "gitbluf"
 
 
 import os
